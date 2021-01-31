@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
 </head>
+
 <body>
     <div>
         <h1>Cadastro de DEVs</h1>
         <p>Complete suas informações</p>
         <br>
     </div>
+
     <form>
         <fieldset>
             <div>
@@ -23,10 +25,12 @@
                 <input type="text" name="sobrenome" id="sobrenome">
             </div>
         </fieldset>
+
         <div>
             <label for="email">Email</label>
             <input type="email" name="email" id="email">
         </div>
+
         <div>
             <label>De qual lado da aplicação você desenvolve?</label>
             <label>
@@ -39,6 +43,7 @@
                 <input type="radio" name="devweb" value="fullstack">Full-stack
             </label>
         </div>
+
         <div>
             <label>Senioridade</label>
             <select id="senioridade">
@@ -49,6 +54,7 @@
                 <option>Sênior</option>
             </select>
         </div>
+
         <fieldset>
             <div>
                 <label>Seleciona as tecnologias que utiliza: </label><br><br>
@@ -71,11 +77,13 @@
                 <input type="checkbox" name="tec9" id="tec9" value="C++">
                 <label for="tec9">C++</label>
             </div>
+
             <div>
                 <br>
                 <label><strong>Conte um pouco da sua experiência como desenvolvedor: </strong></label>
                 <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
             </div>
+            
             <button class="botao" type="submit">Concluído</button>
         </fieldset>
     </form>
